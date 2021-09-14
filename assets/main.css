@@ -1,0 +1,102 @@
+footer {
+  font-size: 10px;
+  padding-top: 0px;
+}
+
+.data {
+  color: #363;
+  padding-left: 6px;
+}
+
+#content td {
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+/* list页面的css效果 */
+.subtitle {
+  font-size: 14px;
+  color: #737376;
+}
+
+/* 小点号 */
+.subtitle .tertiary-text:not(:first-child):before {
+  content: '\00a0\2022\00a0';
+}
+
+/* 下划横线的样式 */
+.text-container{
+  border-bottom: 1px dotted #C2C8CC;
+  cursor: pointer;
+}
+
+/* 详情页面的样式 */
+.order-detail-column{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 详情页面的样式 */
+.order-detail-value{
+  font-size: 14px;
+}
+/*按钮修改*/
+.btn{
+  line-height: 1 !important;
+}
+.events-detail{
+  font-size: 14px;
+}
+
+.events-time{
+  font-size: 14px;
+  color: #737376;
+}
+p.events-time{
+  margin-bottom: 0.4rem !important;
+}
+
+.events-detail{
+  margin-bottom:0px;
+}
+
+.copy{
+  float: right;
+  margin-top: 0px;
+  margin-right: 1em;
+}
+
+
+/* 物流信息末尾与下一个单号之间需要有虚线间隔起来 */
+.collapse{
+  border-bottom: 1px dotted #C2C8CC;
+}
+
+/* 复制按钮给一个hover效果 */
+.btn-outline-secondary:hover{
+  color: #0d6efd !important;
+  border-color: #0d6efd  !important;
+  background-color: #fff !important;
+}
+
+.btn-outline-secondary:focus{
+  color: #0d6efd !important;
+  border-color: #0d6efd  !important;
+  background-color: #fff !important;
+}
+
+/*清除btn按钮点击出现的边框*/
+.btn:focus 
+{
+  outline: none !important; box-shadow:none !important; 
+}
+
+/* span 超出需要进行换行 */
+span{
+  word-break:normal; 
+  width:auto; 
+  white-space:pre-wrap;
+  word-wrap : break-word ;
+  overflow: hidden ;
+}
+

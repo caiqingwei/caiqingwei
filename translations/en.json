@@ -1,0 +1,14 @@
+
+{
+    "app": {
+      "name": "Parcel Panel",
+      "short_description": "The all-in-one order tracking system designed for customer support team.",
+      "long_description": "ParcelPanel and Zendesk integration helps eCommerce brands to shorten time of answering questions related to \"Where is my order?\"\n\nAfter a smooth installation, your support team can check order status right from your Zendesk Ticketing System, so they can easily handle customer's questions without clicking elsewhere for shipping details, a much more efficient and better post-puchase service.\n\nParcelPanel is the best tracking app specially designed for millions of Shopify merchants, driving customer loyalty and more sales by providing the best post-purchase experience. 800+ couriers supported worldwide, branded tracking page, proactive shipping notifications and much more… [Get started free today](https://apps.shopify.com/parcelpanel/)\n\nParcelPanel app for Zendesk will display the associated shipments of the customer at the ticket view, including the following tracking information.\n* Order number\n* Order date\n* Tracking number\n* Courier\n* Shipment status\n* Transit time\n* Tracking detailed info",
+      "installation_instructions": "1. Install ParcelPanel on Shopify app store at [ParcelPanel Order Tracking](https://apps.shopify.com/parcelpanel/)\n\n2. Navigate to Integration tab in your ParcelPanel admin, find and copy ParcelPanel API key.\n\n3. Paste the API key to connect ParcelPanel and Zendesk.\n",
+      "parameters": {
+        "pp-key": {
+          "label": "Parcel Panel API Key"
+        }
+      }
+    }
+  }
